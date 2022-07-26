@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&family=Dancing+Script:wght@700&family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&family=Dancing+Script:wght@700&family=Nova+Mono&family=Oswald:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    cursor: pointer;
+}
+.home{
+    background:url(assets/gbg3.jpg);
+    
+    background-attachment: fixed;
+
+    background-size:cover;
+}
+.work{
+    background:linear-gradient(rgba(0, 0, 0, 0.245),rgba(0, 0, 0, 0.034)  ),url(assets/bg4.jpg);    
+    background-attachment: fixed;
+   background-position: 50%;
+    background-size:cover;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 100%;
+}
+header label{
+    font-size: 40px;
+    font-family: cormorant sc;
+}
+header ul{
+    float: right;
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+header ul li{
+    padding: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+body{
+    
+    
+}
+.main h1{
+    color: white;
+    font-size: 80px;
+}
+.main {
+    color: white;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.active{
+    font-weight: bold;
+}
+.main_work h1{
+    color: white;
+    text-align: center;
+    margin: 20px;  
+    font-family: cormorant sc;
+}
+.cards button{
+    height: 100px;
+    width:200px;
+    margin: 20px;
+    background-color: black;
+    
+    box-shadow: white 1px 1px 3px 1px;
+    box-shadow: inset white 1px 1px 3px 1px;
+    /* border-radius: 10px; */
+    
+
+}
+.cards button a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    font-family: cormorant sc;
+}
+.home_foot{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+h3{
+    margin-top: 10px;
+}
+.work_foot{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: cover;
+    bottom: 0;
+}
+.work_foot h3{
+    margin-top: 20px;
+}
+.about{
+    color: black;
+    background-color: white;
+    margin: 20px;
+    /* border: solid black  3px; */
+    font-family: oswald;
+    border-radius: 20px;
+    box-shadow: inset white 2px 2px 5px 5px;
+
+    box-shadow: rgb(255, 255, 255) 2px 2px 5px 5px;
+
+}
+.about h3{
+    margin: 10px;
+}
+.about p{
+    font-size: 15px;
+    margin: 10px;
+}
+.about img{
+    float: right;
+    margin: 20px;
+    border-radius: 50px;
+}
