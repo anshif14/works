@@ -7,13 +7,21 @@
 
     <title>Portfolio</title>
 <link rel="stylesheet" href="style.css">
+<link rel="icon" href="assets/icon.png">
 
+<script></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="jquery.backgroundMove.js"></script>
+
+</script>
 </head>
 <body class="home">
    
 <header>
     <div class="nav">
         <label for="">Portfolio</label>
+<input type="checkbox" id="check">
+<label for="check"> <img id="tog" src="assets/tog.png" height="35px" width="35px" style="float: right; margin:20px; " ></label>
         <ul>
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="work.html">Work</a></li>
@@ -23,15 +31,24 @@
         </ul>
     </div>
     </header>
-   <section>
+   <section class="section_home">
     <div class="main">
-        <h1>Hello,</h1>
-        <h2>Welcome To My Portfolio</h2>
+        <h1 data-text="Hello..." >Hello...</h1>
+        <h2 data-text="Welcome To My Portfolio">Welcome To My Portfolio</h2>
 
     </div>
    </section>
    <footer class="home_foot">
         <center><h3>Thank You</h3></center>
    </footer>
+<script></script>
+
+<script type="text/javascript">
+$('body').backgroundMove({
+
+  movementStrength:'40'
+
+});
+</script>
 </body>
 </html>
