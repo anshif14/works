@@ -186,7 +186,7 @@ nav img{
 #tog{
     display: none;
 }
-@media (max-width:850px) {
+@media (max-width:900px) {
     header label{
         font-size: 35px;
         font-family: cormorant sc;
@@ -283,6 +283,12 @@ footer{
 }
 h1{
     font-size: 40;
+    display: none;
+}
+h2{
+    text-align: center;
+    margin: auto;
+    margin-top: 40%;
 }
 footer{
     display: block;
