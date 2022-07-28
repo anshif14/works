@@ -108,12 +108,13 @@ footer{
     display: none;
 }
 .cards button{
-    height: 100px;
-    width:200px;
+    height: 150px;
+    width:220px;
     margin: 20px;
-    background-color: black;
-    box-shadow: rgb(255, 255, 255) 2px 2px 5px,
-                        -2px -2px 5px;
+    background:url(assets/bg5.jpg);
+    background-size: cover;
+    box-shadow: rgb(255, 255, 255) 0px 0px 10px,
+                        0px 0px 20px;
     border-radius: 10px;
     transition: 0.3s all;
     
