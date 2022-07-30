@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,6 +16,7 @@
 </script>
 </head>
 <body class="home">
+    <div id="preloader"></div>
    
 <header>
     <div class="nav">
@@ -49,6 +50,14 @@ $('body').backgroundMove({
   movementStrength:'40'
 
 });
+
+var loader = document.getElementById("preloader")
+
+window.addEventListener("load",function(){
+    loader.style.display="none";
+})
+
+
 </script>
 </body>
 </html>

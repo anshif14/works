@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="home">
+    <div id="preloader"></div>
+
 <header>
     <div class="nav">
         <label for="">About me</label>
@@ -46,5 +48,11 @@
 
         </div>
     </section>
+    <script>var loader = document.getElementById("preloader")
+
+        window.addEventListener("load",function(){
+            loader.style.display="none";
+        })
+        </script>
     </body>
     </html>

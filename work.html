@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="work">
+    <div id="preloader"></div>
+
 <header>
     <div class="nav">
         <label for="">My Works</label>
@@ -83,5 +85,11 @@
     <footer class="work_foot">
         <center><h3>Thank You</h3></center>
    </footer>
+   <script>var loader = document.getElementById("preloader")
+
+    window.addEventListener("load",function(){
+        loader.style.display="none";
+    })
+    </script>
     </body>
     </html>
